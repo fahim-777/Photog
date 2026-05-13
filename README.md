@@ -6,7 +6,15 @@ A single-page portfolio demo for sports/editorial photographer **Tim O'Gorman**.
 
 The live demo (rendered straight from this branch — no build, no Pages setup needed):
 
-**https://raw.githack.com/fahim-777/Photog/claude/photographer-portfolio-demo-bZrQV/index.html**
+**https://raw.githack.com/fahim-777/photog/claude/photographer-portfolio-demo-bZrQV/index.html**
+
+Backup mirrors (in case the primary CDN is cold):
+
+- https://cdn.statically.io/gh/fahim-777/photog/claude/photographer-portfolio-demo-bZrQV/index.html
+- https://htmlpreview.github.io/?https://github.com/fahim-777/photog/blob/claude/photographer-portfolio-demo-bZrQV/index.html
+
+For a cleaner share URL (`fahim-777.github.io/photog/`), enable GitHub Pages:
+Settings → Pages → Source: branch `claude/photographer-portfolio-demo-bZrQV`, folder `/`.
 
 Mobile-friendly, dark editorial aesthetic, filterable gallery, lightbox,
 animated hero, contact form.
