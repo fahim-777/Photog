@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tim O'Gorman — Sports &amp; Editorial Photographer. Available for assignment worldwide." />
+  <meta name="theme-color" content="#0b0b0d" />
+  <title>Tim O'Gorman — Sports &amp; Editorial Photographer</title>
+
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b0b0d'/%3E%3Ctext x='50%25' y='58%25' font-family='Georgia,serif' font-size='34' fill='%23f5f3ef' text-anchor='middle' font-style='italic'%3ETO%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <header class="nav" id="nav">
+    <a href="#top" class="brand">
+      <span class="brand-mark">TO</span>
+      <span class="brand-name">Tim O'Gorman</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav-menu" class="nav-menu">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#press">Press</a>
+      <a href="#contact" class="cta">Hire me</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-media">
+        <img
+          src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=2000&q=80"
+          alt="Stadium floodlights"
+          loading="eager"
+          fetchpriority="high"
+          onerror="this.onerror=null;this.src='https://picsum.photos/seed/hero/2000/1200';"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <p class="kicker">Sports · Editorial · Lifestyle</p>
+        <h1>
+          Photographs that move<br />
+          at the speed of the&nbsp;game.
+        </h1>
+        <p class="lede">
+          I'm Tim O'Gorman — a photographer chasing the moments between the
+          headlines. From Friday-night lights to international finals,
+          I help brands, teams and publications tell stories that feel real.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">See the work</a>
+          <a href="#contact" class="btn btn-ghost">Start a project →</a>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">Scroll</div>
+    </section>
+
+    <!-- LOGO MARQUEE -->
+    <section class="marquee" aria-label="Selected clients">
+      <div class="marquee-track">
+        <span>ESPN</span><span>·</span>
+        <span>Nike</span><span>·</span>
+        <span>The Players' Tribune</span><span>·</span>
+        <span>Red Bull</span><span>·</span>
+        <span>GQ</span><span>·</span>
+        <span>Adidas</span><span>·</span>
+        <span>Sports Illustrated</span><span>·</span>
+        <span>New Balance</span><span>·</span>
+        <span>The Athletic</span><span>·</span>
+        <span>Under Armour</span><span>·</span>
+        <!-- duplicated for seamless scroll -->
+        <span>ESPN</span><span>·</span>
+        <span>Nike</span><span>·</span>
+        <span>The Players' Tribune</span><span>·</span>
+        <span>Red Bull</span><span>·</span>
+        <span>GQ</span><span>·</span>
+        <span>Adidas</span><span>·</span>
+        <span>Sports Illustrated</span><span>·</span>
+        <span>New Balance</span><span>·</span>
+        <span>The Athletic</span><span>·</span>
+        <span>Under Armour</span><span>·</span>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Selected Work</p>
+        <h2>A portfolio built on instinct, light and timing.</h2>
+        <div class="filters" role="tablist" aria-label="Filter portfolio">
+          <button class="filter active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter" data-filter="sports" role="tab" aria-selected="false">Sports</button>
+          <button class="filter" data-filter="portrait" role="tab" aria-selected="false">Portraits</button>
+          <button class="filter" data-filter="action" role="tab" aria-selected="false">Action</button>
+          <button class="filter" data-filter="lifestyle" role="tab" aria-selected="false">Lifestyle</button>
+        </div>
+      </div>
+
+      <div class="grid" id="grid">
+        <!-- 12 tiles, mixed sizes -->
+        <figure class="tile tall" data-cat="sports">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1200&q=80" alt="Basketball under the lights" onerror="this.onerror=null;this.src='https://picsum.photos/seed/p1/900/1200';"/>
+          <figcaption><span>Hardwood</span><em>NBA Summer League · 2024</em></figcaption>
+        </figure>
+        <figure class="tile wide" data-cat="action">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1600&q=80" alt="Soccer match" onerror="this.onerror=null;this.src='https://picsum.photos/seed/p2/1600/900';"/>
+          <figcaption><span>Set Piece</span><em>UEFA qualifier · Lisbon</em></figcaption>
+        </figure>
+        <figure class="tile" data-cat="sports">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1551958219-acbc608c6377?auto=format&fit=crop&w=1200&q=80" alt="Boxer wrapping hands" onerror="this.onerror=null;this.src='https://picsum.photos/seed/p3/1200/1200';"/>
+          <figcaption><span>Before the Bell</span><em>Brooklyn · 2023</em></figcaption>
+        </figure>
+        <figure class="tile" data-cat="portrait">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1200&q=80" alt="Tennis portrait" onerror="this.onerror=null;this.src='https://picsum.photos/seed/p4/1200/1200';"/>
+          <figcaption><span>Quiet Court</span><em>Editorial · The Athletic</em></figcaption>
+        </figure>
+        <figure class="tile tall" data-cat="action">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=1200&q=80" alt="Sprinter at the line" onerror="this.onerror=null;this.src='https://picsum.photos/seed/p5/900/1200';"/>
+          <figcaption><span>Lane Four</span><em>Diamond League</em></figcaption>
+        </figure>
+        <figure class="tile wide" data-cat="lifestyle">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1556817411-31ae72fa3ea0?auto=format&fit=crop&w=1600&q=80" alt="Cyclist on coast road" onerror="this.onerror=null;this.src='https://picsum.photos/seed/p6/1600/900';"/>
+          <figcaption><span>Coast Road</span><em>Campaign · Rapha</em></figcaption>
+        </figure>
+        <figure class="tile" data-cat="action">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1577471488278-16eec37ffcc2?auto=format&fit=crop&w=1200&q=80" alt="Skateboarder mid-air" onerror="this.onerror=null;this.src='https://picsum.photos/seed/p7/1200/1200';"/>
+          <figcaption><span>Air Time</span><em>Vert · Long Beach</em></figcaption>
+        </figure>
+        <figure class="tile" data-cat="sports">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80" alt="Basketball arena" onerror="this.onerror=null;this.src='https://picsum.photos/seed/p8/1200/1200';"/>
+          <figcaption><span>Tip-Off</span><em>Conference Final</em></figcaption>
+        </figure>
+        <figure class="tile tall" data-cat="portrait">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=80" alt="Athlete portrait" onerror="this.onerror=null;this.src='https://picsum.photos/seed/p9/900/1200';"/>
+          <figcaption><span>The Captain</span><em>Cover · 8 by 8 Mag</em></figcaption>
+        </figure>
+        <figure class="tile wide" data-cat="lifestyle">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1542884748-2b87b36c6b90?auto=format&fit=crop&w=1600&q=80" alt="Surfer at dawn" onerror="this.onerror=null;this.src='https://picsum.photos/seed/p10/1600/900';"/>
+          <figcaption><span>First Light</span><em>Editorial · Surfer</em></figcaption>
+        </figure>
+        <figure class="tile" data-cat="sports">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?auto=format&fit=crop&w=1200&q=80" alt="Rugby scrum" onerror="this.onerror=null;this.src='https://picsum.photos/seed/p11/1200/1200';"/>
+          <figcaption><span>Scrum</span><em>Six Nations · Dublin</em></figcaption>
+        </figure>
+        <figure class="tile" data-cat="lifestyle">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1526676037777-05a232554f77?auto=format&fit=crop&w=1200&q=80" alt="Trail runner" onerror="this.onerror=null;this.src='https://picsum.photos/seed/p12/1200/1200';"/>
+          <figcaption><span>The Long Way</span><em>Patagonia · Field</em></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="about-image">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1200&q=80" alt="Photographer with camera" onerror="this.onerror=null;this.src='https://picsum.photos/seed/about/1200/1500';"/>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">About</p>
+        <h2>I shoot to remember what it felt like.</h2>
+        <p>
+          Based on both coasts, I've spent the last decade on sidelines,
+          in locker rooms and along finish lines — making pictures for the
+          teams, brands and publications building the next era of sport.
+        </p>
+        <p>
+          My work sits between hard editorial and considered portraiture:
+          fast when it has to be, patient when it counts. I travel light,
+          I work clean, and I send files the same night.
+        </p>
+        <ul class="about-stats">
+          <li><strong>10+</strong><span>years on assignment</span></li>
+          <li><strong>40+</strong><span>countries shot in</span></li>
+          <li><strong>200+</strong><span>published features</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section services">
+      <div class="section-head">
+        <p class="eyebrow">Services</p>
+        <h2>What I can make for you.</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h3>Game Day Coverage</h3>
+          <p>Full-match coverage with same-day edit &amp; delivery for clubs,
+            leagues, and editorial outlets.</p>
+        </article>
+        <article class="card">
+          <h3>Brand &amp; Campaign</h3>
+          <p>Studio and on-location campaigns for athletic, lifestyle and
+            performance brands. From treatment to final grade.</p>
+        </article>
+        <article class="card">
+          <h3>Athlete Portraiture</h3>
+          <p>Editorial-grade portraits — covers, profiles, and the kind of
+            frame an athlete actually wants to hang on the wall.</p>
+        </article>
+        <article class="card">
+          <h3>Events &amp; Documentary</h3>
+          <p>Weddings, family sessions, conferences and long-form doc work.
+            Sports is home, but story is the job.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PRESS -->
+    <section id="press" class="section press">
+      <p class="eyebrow center">Words</p>
+      <blockquote>
+        "Tim shoots like he's already seen the play.
+        He doesn't just catch the moment — he frames it like
+        it was always going to look this way."
+      </blockquote>
+      <p class="press-attrib">— Editor, The Players' Tribune</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="contact-inner">
+        <p class="eyebrow">Contact</p>
+        <h2>Have a shoot in mind?</h2>
+        <p class="contact-lede">
+          Assignments, commissions and the occasional good idea —
+          I read everything that lands in my inbox.
+        </p>
+
+        <form class="contact-form" onsubmit="return handleContact(event)">
+          <div class="row">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required autocomplete="name" />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required autocomplete="email" />
+            </label>
+          </div>
+          <label>
+            <span>Project</span>
+            <input type="text" name="project" placeholder="Editorial, campaign, event…" />
+          </label>
+          <label>
+            <span>Tell me about it</span>
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send enquiry</button>
+          <p class="form-note" id="form-note" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-direct">
+          <a href="mailto:hello@timogorman.example">hello@timogorman.example</a>
+          <span>·</span>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <span>·</span>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>© <span id="year"></span> Tim O'Gorman Photography</span>
+      <span>Sport · Story · Light</span>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <img alt="" />
+    <p class="lightbox-caption"></p>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
